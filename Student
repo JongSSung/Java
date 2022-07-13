@@ -1,0 +1,37 @@
+```Java
+package GitPractice;
+import java.util.*;
+public class Student {
+	Scanner sc=new Scanner(System.in);
+	 int Class;
+	 int mark;
+		Mark ma=new Mark();
+	
+	
+	public void People() {
+		
+		System.out.println("학년을 입력하세요 -> ");
+		int cl=sc.nextInt();
+		if(cl==4) {
+			ma.Fo();
+			
+		}
+		else {
+		System.out.println("점수를 입력하세요 ->");
+		int ma=sc.nextInt();
+			if(ma>60) {
+				System.out.println("합격입니다.");
+				
+				
+			}
+			if(ma<60) {
+				System.out.println("불합격입니다.");
+			}
+		
+	
+	}
+	
+	
+	
+}
+}
